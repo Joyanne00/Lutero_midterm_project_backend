@@ -1,14 +1,18 @@
 {
+  "product_code": "P001",
   "name": "lutero_backend_project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "price": "99.99",
+    "qty": "10",
+    "date_added": "2024-10-23"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This is a sample product.",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
@@ -16,4 +20,5 @@
     "express": "^4.21.1",
     "mongoose": "^8.7.2"
   }
+  
 }
